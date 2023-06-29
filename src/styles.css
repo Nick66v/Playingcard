@@ -1,0 +1,18 @@
+body {background-color: green;}
+#numbers{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+#rectangle{
+    height: 200px;
+    width: 100px;
+    background-color: white;
+    
+
+}
+
