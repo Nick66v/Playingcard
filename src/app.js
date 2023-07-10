@@ -21,6 +21,11 @@ return Math.floor(Math.random() * array.length)
     const numbers = document.querySelector("#numbers")
     const cards = ["2","3","4","5","6","7","8","9","10","J","Q","K","A"]
     let card = cards[randomizer(cards)]
+
+    if (suit === "♦" || suit === "♥") {
+        numbers.style.color = "red";
+      }
+
     numbers.innerHTML = card
 
 }
