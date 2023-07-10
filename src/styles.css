@@ -9,10 +9,33 @@ body {background-color: green;}
 }
 
 #rectangle{
-    height: 200px;
-    width: 100px;
+    height: 400px;
+    width: 250px;
     background-color: white;
-    
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    border-radius: 15px;
 
+}
+
+#topsuite{
+    font-size: 72px;
+    position:absolute;
+    margin-right: 150px;
+    margin-bottom: 350px;
+}
+
+#bottomsuite{
+    font-size: 72px;
+    position:absolute;
+    margin-left: 150px;
+    margin-top: 350px;
+    transform: rotate(180deg);
+}
+
+#numbers{
+    font-size: 96px;
 }
 
